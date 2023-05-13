@@ -17,7 +17,7 @@ while continuar == 1:
     if convert == 2:
         # recebe um valor em segundos.
         qtd_segunds = float(input("Digite o valor em segundos que quer converter para minutos:\n--> "));
-        total_minuts = qtd_segunds // 60;
+        total_minuts = qtd_segunds / 60;
         print("{} segundos são {:.2f} minutos".format(qtd_segunds, total_minuts));
     # se digitar 3, converte de horas para minutos.    
     if convert == 3:
